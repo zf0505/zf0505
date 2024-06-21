@@ -1,0 +1,167 @@
+{
+  "spider": "http://like.xn--z7x900a.com/jar/PandaQ240616.jar;md5;53fd0f0582cd66035dbdae77a2eadeb3",
+  "wallpaper": "http://like.xn--z7x900a.com/ppic/feimao.php",
+  "logo": "http://like.xn--z7x900a.com/panda/0262.png",
+  "sites": [
+
+    {
+      "key": "csp_Panda_玩偶哥哥",
+      "name": "┃4K┃",
+      "api": "csp_Wogg",
+      "type": 3,
+      "searchable": 1,
+      "playerType": 2,
+      "timeout": 30,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/fatcat/token.txt"
+    },
+
+
+
+    {
+      "key": "黑狐",
+      "name": "┃黑狐┃",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "playerType": "2",
+      "api": "csp_XBPQ",
+      "ext": {
+        "站名": "黑狐影院",
+        "主页url": "http://fagmn.com",
+        "数组": "class=\"stui-vodlist__box\"&&</a",
+        "图片": "data-original=\"&&\"",
+        "标题": "title=\"&&\"",
+        "链接": "href=\"&&\"",
+        "嗅探词": ".m3u8?#v3.huoshanvod.com#.m3u8#v3-dy-o.zjcdn#sf16-sg.larksuitecdn.com#v.kd1.qq.com#.mp4",
+        "过滤词": "/hls/#php",
+        "副标题": "<span class=\"pic-text text-right\">&&</span>",
+        "搜索url": "http://fagmn.com/search.php;post;searchword={wd}",
+        "搜索模式": "1",
+        "搜索数组": "<a class=\"v-thumb stui-vodlist__thumb&&</a >",
+        "搜索图片": "data-original=\"&&\"",
+        "搜索标题": "title=\"&&\"",
+        "搜索链接": "href=\"&&\"",
+        "搜索副标题": "<span class=\"pic-text text-right\">&&</span>",
+        "搜索后缀": "/view/",
+        "线路数组": "href=\"#down&&/a>[替换:奇异视频>>黑狐一线#优酷视频>>黑狐二线#搜狐视频>>黑狐三线#咪咕视频>>黑狐四线]",
+        "线路标题": ">&&<",
+        "播放数组": "class=\"stui-content__playlist clearfix&&</ul>",
+        "状态": "地区：&&</p >",
+        "导演": "导演：&&</p >",
+        "主演": "主演：&&</p >",
+        "简介": "简介：&&</div>",
+        "播放列表": "<a&&/a>",
+        "播放标题": ">&&<",
+        "播放链接": "href=\"&&\"",
+        "免嗅": "0",
+        "分类": "电影$1#电视剧$2#动漫$3#综艺$4",
+        "分类url": "http://fagmn.com/list/{cateId}_{catePg}.html?order=time"
+      }
+    },
+
+ 
+    {
+      "key": "csp_Dm84",
+      "name": "┃动漫┃",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_Dm84"
+    },
+
+    {
+      "key": "新视觉",
+      "name": "┃视觉┃",
+      "type": 3,
+      "api": "csp_Xinsj",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+       {
+      "key": "csp_Nkdy",
+      "name": "┃耐看┃",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_Nkdy"
+    },
+    {
+      "key": "csp_Juqq",
+      "name": "┃剧圈┃",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_Juqq"
+    },
+
+    {
+      "key": "csp_Vidhub2",
+      "name": "┃Vid┃",
+      "type": 3,
+      "api": "csp_Vidhub2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+
+    {
+      "key": "csp_AppRZ",
+      "name": " ┃忍者┃",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_AppRZ",
+      "ext": "http://rzys.xyz/"
+    },
+ 
+    {
+      "key": "毛驴",
+      "name": "┃毛驴┃",
+      "type": 3,
+      "api": "csp_MaoLv",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "兄弟",
+      "name": "┃兄弟┃",
+      "type": 3,
+      "api": "csp_Xdys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "可可",
+      "name": " ┃可可┃",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_Keke",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+ 
+
+    {
+      "key": "虎虎",
+      "name": "┃虎虎┃",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "http://我不是.肥猫.live/json/虎虎.json"
+    }
+
+ ],
+  "lives": [
+   {
+      "name": "live",
+      "type": 0,
+      "playerType": 1,
+      "url": "http://home.jundie.top:81/Cat/tv/live.txt",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    
+
+    }
+  ]
+}
